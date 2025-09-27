@@ -1,0 +1,27 @@
+img {
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	height: auto;
+}
+ 
+.container {
+	display: flex;
+	justify-content: center; /* center horizontally */
+	align-items: center;     /* center vertically */
+	max-width: 200px;        /* scales down container width */
+	margin: 120px auto 0 auto; /* more space above, centers horizontally */
+	height: auto;            /* removes full screen height */
+}
+body {
+	background-color: #f0f0f0; /* Sets a light gray background for the whole page */
+	font-family: Arial, sans-serif; /* Changes the default font to Arial */
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #0078d7; /* Makes the heading text blue */
+	text-align: center; /* Centers the heading horizontally */
+	margin-top: 40px;
+}
